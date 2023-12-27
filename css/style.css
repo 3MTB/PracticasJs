@@ -1,0 +1,37 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-shadow: none;
+    border: none;
+    color: #fafafa;
+    background-color: #2e3538;
+    background-color: #000;
+
+}
+
+#contain-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contain-letter {
+    width: 60px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #b6c2c9;
+}
+
+.success {
+    background-color: #2b3c95;
+    box-shadow: 1px 1px #09f;
+}
+
+
+.incomplete {
+    background-color: transparent;
+
+}
